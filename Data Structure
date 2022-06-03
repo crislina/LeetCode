@@ -1,0 +1,67 @@
+Data Structure
+
+PriorityQueue
+PriorityQueue<Integer> queue=new PriorityQueue<Integer>;
+	add(E e)
+	contains(Object o)
+	peek()		retrieve but not remove
+	poll()		retrieve and remove
+	size()		number of elements
+	isEmpty()	check if empty
+	
+Singly-Linked list
+public class ListNode{
+	int val;
+	ListNode next;
+	ListNode(){}
+	ListNode(int val){ this.val=val; }
+	ListNode(int val, ListNode next){ this.val=val; this.next=next; }
+}
+
+Doubly Linked ListNode
+public class ListNode{
+	int val;
+	ListNode prev;
+	ListNode next;
+	ListNode() {}
+	ListNode(int val){ this.val=val; }
+}
+
+Stack
+Stack<Integer> stack = new Stack<Integer>();
+	push(Object o) 		adding elements
+	peek()				Access the element without remove
+	pop()				Get the top element from the stack and remove it
+	empty()				It return true if nothing is on the top of the stack, else retun false
+	search(Object o)	return the position of element from top of the stack, else return -1
+
+
+ArrayList
+ArrayList<String> list=new ArrayList<String>();
+
+HashMap
+HashMap<String,String> map = new HashMap<>();
+	map.put("Key","Value");		add data entry
+	map.get("key")				get value based on key
+	map.getOrDefault("key","default value");	
+	map.remove("key");			delete the data entry
+	map.containsKey("key");		check if contains this key
+	map.containsValue("value");	check if contains this value
+	map.isEmpty()		map.size()
+	
+for(Map.Entry me:map.entrySet()){
+    System.out.println(me.getKey());
+	System.out.println(me.getValue());
+}
+
+StringBuilder sb=new StringBuilder();
+	sb.append("");
+
+
+ArrayList
+Multi dimensional array
+int[][] arr = new int[10][20];
+Arrays.sort(arr,(i1,i2)->Integer.compare(i1[0],i2[0]);
+
+Operator
+XOR: ^
